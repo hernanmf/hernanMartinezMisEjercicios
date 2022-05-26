@@ -40,7 +40,7 @@ btnComenzar.addEventListener("click", () => {
   }
   let arregloResultado: number[] = completarArreglos(longitudArray);
 
-  let stringArreglo: string = "Arreglo final: [ ";
+  let stringArreglo: string = "Arreglo final: [";
   if (arregloResultado.length > 1) {
     stringArreglo += arregloResultado[0];
     for (let i = 1; i < longitudArray; i++) {
