@@ -1,4 +1,14 @@
 body {
-  font-family: sans-serif;
+  font-family: "VictorMono";
+  src: url("fonts/Victor-Mono-Bold");
+  color: rgb(41, 41, 41);
   background-color: #666666;
+}
+
+a {
+  color: rgb(79, 8, 8);
+}
+
+h1 {
+  color: orangered;
 }
